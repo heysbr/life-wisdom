@@ -20,12 +20,12 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black flex items-center justify-center p-4">
+    <div className=" min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black flex items-center justify-center p-4">
       <div className="relative z-10 w-full max-w-2xl">
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-4">
             <Quote className="h-8 w-8 text-blue-400 mr-3" />
-            <h1 className="text-5xl font-bold text-white">
+            <h1 className="text-4xl md:text-5xl font-bold text-white">
               Life Wisdom
             </h1>
           </div>
@@ -39,7 +39,7 @@ export default function Home() {
             <div className="flex items-center">
               <Quote className=" shrink-0 h-14 w-14 text-blue-400/30" />
               <blockquote
-                className={`text-3xl  font-medium text-white  transition-all duration-300 pl-6 ${
+                className={`text-xl md:text-2xl font-medium text-white leading-relaxed transition-all duration-300 pl-6 ${
                   isAnimating
                     ? "opacity-0 translate-y-4"
                     : "opacity-100 translate-y-0"
