@@ -34,7 +34,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="bg-gray-800/80 backdrop-blur-sm border-gray-700 shadow-2xl rounded-lg border text-card-foreground">
+        <div className="bg-gray-800/80 backdrop-blur-sm h-72 flex items-center border-gray-700 shadow-2xl rounded-lg border text-card-foreground">
             <div className="p-8 md:p-12">
             <div className="flex items-center">
               <Quote className=" shrink-0 h-14 w-14 text-blue-400/30" />
